@@ -1,0 +1,11 @@
+prefix=/home/ec2-user/portables
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: WiredTiger
+Description: The WiredTiger Data Engine
+Requires:
+Version: 2.9.3
+Libs: -L${libdir} -lwiredtiger
+Cflags: -I${includedir}
