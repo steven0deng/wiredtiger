@@ -17,7 +17,7 @@ old_library='libwiredtiger.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -lrt -ldl -lpthread'
+dependency_libs=' -lrt -ldl -lpthread -lsnappy'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
