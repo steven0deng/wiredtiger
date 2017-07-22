@@ -1,4 +1,4 @@
-prefix=/home/ec2-user/portables
+prefix=/home/ec2-user/wt
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
